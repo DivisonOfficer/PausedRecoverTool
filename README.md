@@ -16,3 +16,7 @@ TryCall.run 으로 실행된 retrofit call은, call 이 실패했을 경우 Paus
 
 RecoverTool.run을 이용하면 보관된 call을 복원하여 다시 시행합니다.
 RecoverTool.addMethod를 통해 복원된 call을 어디로 할당할지 지정해줘야합니다.
+
+
+
+PausedBodyInterface를 상속받은 PausedBody 라는 entity class를 구현하고, 이 entiti class를 보관하는 PausedDb라는 RoomDb를 구현하면 모든 기능을 이용할 수 있습니다.

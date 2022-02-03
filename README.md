@@ -1,9 +1,10 @@
 # PausedRecoverTool
 Kotlin - Api call 실패하면 쌓아뒀다가 다시 복구하자
+When Retrofit failed to connect to server, store body in database and recover later.
 
 
 Retrofit 으로 Call을 요청했는데, 네트워크 / 서버 문제로 요청이 실패했을 경우, 꼭 이 요청을 다시 보내야할 경우, Call을 Db에 보관했다가 다시 복구하는 방법을 쓸 수 있습니다.
-
+When we tried api call via Retrofit to our server and it failed because of some issues, This tool can store failed http body in Room database and RecoverTool will recover data from database and retry api call.
 
 
 
